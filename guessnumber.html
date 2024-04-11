@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <style>
+        .btn{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess The Number</h1>
+    <h2>Guess what is the number. You have only 10 chances</h2>
+    <form >
+        <input type="button" value="start" id="st" onclick="start()">
+        <input type="text" id="g" placeholder="Enter number">
+    <input type="button" value="Enter" onclick="game()">
+    <input type="button" value="Retart" id="rest" class="btn" onclick="restart()">
+
+    </form>
+    <h3 id="prt"></h3>
+    
+    <script src="guessnumber.js"></script>
+</body>
+</html>
